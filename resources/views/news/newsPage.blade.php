@@ -4,6 +4,7 @@
 
 @section('menu')
     <header>
+        <!--Comment-->
         <!-- Header Start -->
         <div class="header-area header-transparrent ">
             <div class="main-header header-sticky">
@@ -110,7 +111,7 @@
                             <div class="carousel-inner w-100" role="listbox">
                             @if($highlights != null)
                                 @foreach($highlights as $index => $highlight)
-                                    @if ($index == 0) 
+                                    @if ($index == 0)
                                         <div class="carousel-item active">
                                             <div class="col-lg-12 pr-0 pl-0">
                                                 <article class="blog_item">
@@ -178,7 +179,7 @@
                                                     </div>
                                                     <div class="col">
                                                         <div class="lengkapnya_1">
-                                                           
+
                                                         </div>
                                                     </div>
                                                 </div>
@@ -286,7 +287,7 @@
                                         style="width: 35px; height: 35px;"></span>
                                     <span class="sr-only">Previous</span>
                                 </a>
-                        
+
                                 <a class="carousel-control-next w-auto" href="#GaleriCarousel" role="button"
                                     data-slide="next">
                                     <span class="carousel-control-next-icon bg-info rounded-circle" aria-hidden="true"
@@ -315,7 +316,7 @@
                             </div>
                         </div>
                         <aside class="single_sidebar_widget popular_post_widget">
-                        @if($govNews != null)    
+                        @if($govNews != null)
                             @foreach($govNews as $govNewsItem)
                             <div class="media post_item">
                                 <div class="col-lg-4 col-4 pl-0 pr-0">
@@ -348,7 +349,7 @@
                             </div>
                         </div>
                         <aside class="single_sidebar_widget popular_post_widget">
-                        @if($localgovNews != null)    
+                        @if($localgovNews != null)
                             @foreach($localgovNews as $localgovNewsItem)
                             <div class="media post_item">
                                 <div class="col-lg-4 col-4 pl-0 pr-0">
@@ -367,7 +368,7 @@
                         @else
                             <div class="media post_item">Belum ada Data</div>
                         @endif
-                           
+
                         </aside>
                     </div>
                 </div>
